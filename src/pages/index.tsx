@@ -1,6 +1,7 @@
+import React, { FC } from 'react'
 import Link from "next/link"
 
-const Index = () => {
+const Index: FC = () => {
     return (
         <div>
             <h1>Top Page</h1>
