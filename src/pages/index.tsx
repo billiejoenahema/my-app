@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function index() {
+const Index = () => {
     return (
         <div>
             <h1>Top Page</h1>
@@ -19,3 +19,5 @@ export default function index() {
         </div>
     )
 }
+
+export default Index
